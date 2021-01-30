@@ -1,7 +1,7 @@
-final int SIZE = 15;
-final int hidden_nodes = 18;
-final int hidden_layers = 3;
-final int fps = 1000;  //15 is ideal for self play, increasing for AI does not directly increase speed, speed is dependant on processing power
+final int SIZE = 20;
+final int hidden_nodes = 16;
+final int hidden_layers = 2;
+final int fps = 100;  //15 is ideal for self play, increasing for AI does not directly increase speed, speed is dependant on processing power
 
 int highscore = 0;
 
@@ -31,7 +31,7 @@ Snake model;
 Population pop;
 
 public void settings() {
-  size(1300,900);
+  size(1200,800);
 }
 
 void setup() {
